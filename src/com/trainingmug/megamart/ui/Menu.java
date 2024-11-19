@@ -12,8 +12,12 @@ public class Menu {
     --------------------------------------------------
      */
     public static void displayHeader(){
+        System.out.println("--------------------------------------------------");
+        System.out.println("            WELCOME TO MEGA-MART                  ");
+        System.out.println("--------------------------------------------------");
 
     }
+
 
     /*
     This method is to display the main menu of Mega Mart
@@ -34,9 +38,15 @@ public class Menu {
 
     public static void displayMainMenu(){
         displayHeader();
+        System.out.println("1. Display Customer Details");
+        System.out.println("2. Display RegularCustomer Details");
+        System.out.println("3. Display PremiumCustomer Details");
+        System.out.println("4. Browse Products");
+        System.out.println("5. Display Products Details");
+        System.out.println("6. Buy Product");
+        System.out.println("Please Enter Your Input (1-6) : ");
 
     }
-
 
 
 }
