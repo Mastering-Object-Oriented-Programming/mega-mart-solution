@@ -40,7 +40,6 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         Menu.displayMainMenu();
-        System.out.println("Enter Your Input (1-6)");
         int input = scanner.nextInt();
         switch (input){
             case 1:
